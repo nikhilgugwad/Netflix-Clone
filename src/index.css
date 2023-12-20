@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Hide the horizontal scrollbar */
+.overflow-x-auto::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Optional: Add any other scrollbar customization */
+  
